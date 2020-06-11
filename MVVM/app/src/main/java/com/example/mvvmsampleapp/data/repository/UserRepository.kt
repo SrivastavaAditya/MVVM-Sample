@@ -28,5 +28,7 @@ class UserRepository {
             }
 
         })
+
+        return loginResponse
     }
 }
