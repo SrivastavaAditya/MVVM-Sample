@@ -3,8 +3,9 @@ package com.example.mvvmsampleapp.ui.auth
 import android.view.View
 import androidx.lifecycle.ViewModel
 import com.example.mvvmsampleapp.data.repository.UserRepository
+import javax.inject.Inject
 
-class AuthViewModel: ViewModel() {
+class AuthViewModel @Inject constructor() : ViewModel() {
 
     var email: String? = null
     var password: String? = null
